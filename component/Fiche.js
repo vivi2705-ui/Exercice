@@ -1,8 +1,9 @@
 const Fiche = ({ nom, prenom, genre, competence}) => {
   return (
     <section className="fiche-section">
-      <h1><strong>Nom:</strong> {nom}</h1>
-      <h2><strong>Prénom:</strong> {prenom}</h2>
+    <h1>Fiche Etudiant<h1/>
+      <h3><strong>Nom:</strong> {nom}</h3>
+      <h3><strong>Prénom:</strong> {prenom}</h3>
       <h3><strong>Genre:</strong> {genre}</h3>
       <div className="competence-container">
         <span className="competence-label"><strong>Compétences:</strong></span>
@@ -15,5 +16,6 @@ const Fiche = ({ nom, prenom, genre, competence}) => {
     </section>
   );
 };
+
 
 export default Fiche;
